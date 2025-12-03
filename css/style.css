@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;           /* Siyah arka plan */
+  color: #d1d5db;              /* Açık gri yazı  */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* Ortalamayı düzgün yapmak için wrapper + flex kullandım */
+.wrapper {
+  min-height: 100vh;           /* Ekran yüksekliği kadar */
+  display: flex;
+  align-items: center;         /* Dikey ortalama */
+  justify-content: center;     /* Yatay ortalama */
+}
+
+.content {
+  text-align: center;
+  max-width: 700px;            
+}
+
+/* Karşılama yazısı */
+.text1 {
+  font-size: 48px;
+  letter-spacing: 4px;
+  margin-bottom: 16px;
+}
+
+/* Alt açıklama */
+.text2 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+}
+
+/* Saat */
+.clock {
+  font-size: 64px;
+  letter-spacing: 6px;
+  margin-bottom: 24px;
+}
+
+/* En alttaki küçük açıklama */
+.text3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #9ca3af;              
+}
